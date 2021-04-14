@@ -1,0 +1,12 @@
+{
+  "name": "ejemplo-travis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"All good\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

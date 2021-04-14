@@ -1,0 +1,25 @@
+
+language: node_js
+
+node_js:
+  - '12'
+
+cache:
+  yarn: true
+  directories:
+    - public
+    - .cache
+
+git:
+  depth: 3
+  
+deploy:
+  provider: pages
+  skip_cleanup: true
+  keep_history: true
+  github_token: $GITHUB_TOKEN
+  target_branch: gh-pages
+  commit_message: "Deploy del proyecto"
+  
+  on:
+    branch: master
