@@ -9,9 +9,6 @@ cache:
   directories:
     - public
     - .cache
-    
-script:
-  - yarn build
 
 git:
   depth: 3

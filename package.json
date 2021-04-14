@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"All good"
+    "test": "echo \"All good\""
   },
   "keywords": [],
   "author": "",
