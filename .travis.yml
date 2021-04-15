@@ -12,7 +12,15 @@ cache:
 
 git:
   depth: 3
-  
+
+notifications:
+  email:
+    recipients:
+      - $USER1_MAIL
+      - $USER2_MAIL
+    on_success: always
+    on_failure: always
+
 deploy:
   provider: pages
   skip_cleanup: true
