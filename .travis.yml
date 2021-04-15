@@ -16,8 +16,8 @@ git:
 notifications:
   email:
     recipients:
-      - $USER1_MAIL
-      - $USER2_MAIL
+      - aron_1991@live.com.ar
+      - elsorbo1@gmail.com
       - josue.caballero.macias@outlook.com
     on_success: always
     on_failure: always
